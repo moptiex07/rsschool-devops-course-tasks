@@ -23,9 +23,9 @@ variable "aws_account_id" {
 }
 
 variable "github_repo" {
-  description = "The GitHub repository in format username/repo"
+  description = "The GitHub repository name (without organization)"
   type        = string
-  default     = "moptiex07/rsschool-devops-course-tasks"
+  default     = "rsschool-devops-course-tasks"
 }
 
 variable "github_org" {
