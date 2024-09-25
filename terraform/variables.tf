@@ -28,6 +28,11 @@ variable "github_repo" {
   default = "moptiex07/rsschool-devops-course-tasks"
 }
 
+variable "github_org" {
+  description = "The GitHub organization name"
+  type        = string
+}
+
 # Добавьте здесь другие переменные, которые могут понадобиться для вашего проекта
 # Например:
 
