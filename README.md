@@ -47,4 +47,4 @@ To apply changes locally: `terraform apply`
 
 ## IAM User with MFA
 
-![IAM user iwth MFA](../images/image.png)
+![IAM user iwth MFA](./images/image.png)
