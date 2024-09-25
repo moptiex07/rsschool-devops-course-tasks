@@ -16,6 +16,18 @@ variable "environment" {
   default     = "dev"
 }
 
+variable "aws_account_id" {
+  description = "The AWS Account ID"
+  type        = string
+  default     = "975049903132"
+}
+
+variable "github_repo" {
+  description = "The GitHub repository in format username/repo"
+  type        = string
+  default = "moptiex07/rsschool-devops-course-tasks"
+}
+
 # Добавьте здесь другие переменные, которые могут понадобиться для вашего проекта
 # Например:
 
