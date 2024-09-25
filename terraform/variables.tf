@@ -5,15 +5,13 @@ variable "aws_region" {
 }
 
 variable "project_name" {
-  description = "The name of the project"
+  description = "Name of the project"
   type        = string
-  default     = "moptiex-07"
 }
 
 variable "environment" {
-  description = "The deployment environment (e.g. dev, staging, prod)"
+  description = "Environment (e.g., dev, staging, prod)"
   type        = string
-  default     = "dev"
 }
 
 variable "aws_account_id" {
