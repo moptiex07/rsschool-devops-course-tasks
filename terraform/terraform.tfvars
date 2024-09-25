@@ -1,0 +1,6 @@
+aws_region     = "eu-north-1"
+project_name   = "moptiex-07"
+environment    = "dev"
+aws_account_id = "975049903132"
+github_repo    = "moptiex07/rsschool-devops-course-tasks"
+github_org     = "moptiex07"

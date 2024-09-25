@@ -25,12 +25,13 @@ variable "aws_account_id" {
 variable "github_repo" {
   description = "The GitHub repository in format username/repo"
   type        = string
-  default = "moptiex07/rsschool-devops-course-tasks"
+  default     = "moptiex07/rsschool-devops-course-tasks"
 }
 
 variable "github_org" {
   description = "The GitHub organization name"
   type        = string
+  default     = "moptiex07"
 }
 
 # Добавьте здесь другие переменные, которые могут понадобиться для вашего проекта
